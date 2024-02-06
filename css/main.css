@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: vazir;
+}
+@font-face {
+  font-family: vazir;
+  src: url("/font/vazir/Vazir-Bold-FD-WOL.woff2"),
+    ("/font/vazir/Vazir-Bold-FD-WOL.woff");
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.main {
+  position: absolute;
+  border: 2px solid white;
+  border-radius: 15px;
+  width: 96%;
+  height: 91%;
+  margin: 2rem;
+  color: #fff;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
+    0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
+}
+
+h1 {
+  font-size: 6.2rem;
+  animation: pulsate 1.5s infinite alternate;
+  border-radius: 2rem;
+  padding: 0.4em;
+}
+
+@keyframes pulsate {
+  100% {
+    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #bc13fe,
+      0 0 80px #bc13fe, 0 0 90px #bc13fe, 0 0 100px #bc13fe, 0 0 150px #bc13fe;
+  }
+
+  0% {
+    text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #fff, 0 0 10px #bc13fe,
+      0 0 45px #bc13fe, 0 0 55px #bc13fe, 0 0 70px #bc13fe, 0 0 80px #bc13fe;
+  }
+}
+
+body {
+  font-family: vazir;
+}
+.main-section {
+  background-color: #2b2d42;
+  height: 100vh;
+}
+.health {
+  padding: 2rem;
+  display: flex;
+  direction: ltr;
+}
+.health img {
+  width: 50px;
+  height: 50px;
+}
+.info {
+  text-align: center;
+}
+.info input {
+  padding: 15px;
+  width: 30%;
+  border-radius: 50px;
+  border: none;
+  font-size: 35px;
+}
