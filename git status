@@ -1,0 +1,29 @@
+[33mcommit 048c7c864d174aa163945b010b46cbeebeb72bba[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Ehsan Davoudi <ehsan.davoudi.1@gmail.com>
+Date:   Wed Feb 7 23:32:37 2024 +0330
+
+    change button style,fix the vazir font
+
+[33mcommit ea0def465ed5f26c96927f252986b84a1065c314[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Ehsan Davoudi <ehsan.davoudi.1@gmail.com>
+Date:   Wed Feb 7 14:36:03 2024 +0330
+
+    added a neon button
+
+[33mcommit 59c1adf9f70dbc812a4364e854382cea2440798f[m
+Author: Ehsan Davoudi <ehsan.davoudi.1@gmail.com>
+Date:   Wed Feb 7 01:21:53 2024 +0330
+
+    added font and border to css file and change some style
+
+[33mcommit 30dedf12ceae740fe0ccb1de90897d75a2c1f779[m
+Author: Ehsan Davoudi <ehsan.davoudi.1@gmail.com>
+Date:   Wed Feb 7 00:17:20 2024 +0330
+
+    added js file and added css file
+
+[33mcommit 0248c4db49ccf80fdeb91996fc42e61baeeee833[m
+Author: Ehsan Davoudi <ehsan.davoudi.1@gmail.com>
+Date:   Tue Feb 6 22:30:56 2024 +0330
+
+    creating project file

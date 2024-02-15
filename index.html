@@ -11,24 +11,27 @@
 <body>
     <section class="main-section">
         <article class="main">
-            <article class="health">
-                <img src="./image/heart2.png" alt="">
-                <img src="./image/heart2.png" alt="">
-                <img src="./image/heart2.png" alt="">
-                <img src="./image/heart2.png" alt="">
-                <img src="./image/heart1.png" alt="">
+            <article class="health-container">
+                <article class="health">
+                    <img id="heart1" src="./image/heart2.png" alt="">
+                    <img id="heart2" src="./image/heart2.png" alt="">
+                    <img id="heart3" src="./image/heart2.png" alt="">
+                    <img id="heart4" src="./image/heart2.png" alt="">
+                    <img id="heart5" src="./image/heart2.png" alt="">
+                </article>
+                <article>
+                    <h4 id="result"></h4>
+                </article>
             </article>
+
             <article class="info">
-                <h2></h2>
-                <h1>
-                    ?
-                </h1>
-                <input type="number">
+                <h1 id="fainalresult">?</h1>
+                <input id="guessnumber" type="number">
             </article>
             <article class="button-center">
-                <button class="button">حدس بزن</button>
+                <button onclick="guessNumber()" class="button">حدس بزن</button>
             </article>
-           
+
         </article>
     </section>
     <script src="./javascript/main.js"></script>
